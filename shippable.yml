@@ -1,7 +1,7 @@
 # Language setting
 language: node_js
 
-build_image: shippableimages/ubuntu1204_nodejs:0.0.2
+#build_image: shippableimages/ubuntu1204_nodejs:0.0.2
 
 # Version number
 node_js:
@@ -31,3 +31,11 @@ after_script:
   - ./node_modules/.bin/istanbul report cobertura --dir  shippable/codecoverage/
 
 #cache: true
+images:
+  image:
+    build:
+     type: docker
+     name: shippableimages/ubuntu1204_nodejs
+     tag: 0.0.2
+     cache: true
+     code_path: /root/vidyar/src
