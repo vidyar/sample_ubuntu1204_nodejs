@@ -36,6 +36,6 @@ images:
     build:
      type: docker
      name: shippableimages/ubuntu1204_nodejs
-     tag: latest
+     tag: 0.0.1
      #cache: true
      code_path: /home/vidyar/src
