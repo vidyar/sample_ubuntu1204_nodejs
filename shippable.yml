@@ -17,7 +17,7 @@ before_install:
   - node --version
   - npm install -g grunt-cli
 
-install:
+install
   - npm install
   
 # Running the tests with grunt
