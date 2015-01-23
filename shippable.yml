@@ -1,8 +1,7 @@
 # Language setting
 language: node_js
 
-build_image: shippableimages/ubuntu1204_nodejs:0.0.2
-
+build_image: shippableimages/ubuntu1204_nodejs
 
 # Version number
 node_js:
@@ -18,7 +17,7 @@ before_install:
   - node --version
   - npm install -g grunt-cli
 
-install:
+install
   - npm install
   
 # Running the tests with grunt
