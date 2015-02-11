@@ -23,6 +23,8 @@ install:
 # Running the tests with grunt
 script:
   - grunt
+  - git --version
+  
 archive: true
 # Tell istanbul to generate a coverage report
 
