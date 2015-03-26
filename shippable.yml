@@ -7,6 +7,7 @@ build_image: shippableimages/ubuntu1204_nodejs
 node_js:
   - 0.10
   - 0.11
+  - 0.12
 
 # The path for Xunit to output test reports
 env:
