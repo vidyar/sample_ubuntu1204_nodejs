@@ -1,7 +1,7 @@
 # Language setting
 language: node_js
 
-build_image: shippableimages/ubuntu1204_nodejs:master.5
+build_image: shippableimages/ubuntu1204_nodejs: master.5
 
 
 # Version number
