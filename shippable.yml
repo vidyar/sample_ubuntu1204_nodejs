@@ -6,9 +6,9 @@ build_image: shipimg/ubuntu1404_nodejs:master.3
 
 # Version number
 node_js:
-  - 0.10
-  - 0.11
   - 0.12
+  - 0.11
+  - 0.10
 
 # The path for Xunit to output test reports
 env:
