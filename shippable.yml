@@ -43,3 +43,6 @@ after_script:
     # tag: 0.0.1
      #cache: true
      #code_path: /home/vidyar/src
+
+notifications:
+  email: vidya@shippable.com
